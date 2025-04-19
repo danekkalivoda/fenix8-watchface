@@ -1,0 +1,568 @@
+[ @file = "/Users/admin/CascadeProjects/fenix8-watchface/DK-Modern/source/DK-ModernView.mc"; @line = 1; @symbol_importdef<0> = [Toybox,1,7,13]; @symbol_importdef<1> = [Graphics,1,14,22]; ]
+import Toybox.Graphics;
+[ @file = "/Users/admin/CascadeProjects/fenix8-watchface/DK-Modern/source/DK-ModernView.mc"; @line = 2; @symbol_importdef<0> = [Toybox,2,7,13]; @symbol_importdef<1> = [Lang,2,14,18]; ]
+import Toybox.Lang;
+[ @file = "/Users/admin/CascadeProjects/fenix8-watchface/DK-Modern/source/DK-ModernView.mc"; @line = 3; @symbol_importdef<0> = [Toybox,3,7,13]; @symbol_importdef<1> = [System,3,14,20]; ]
+import Toybox.System;
+[ @file = "/Users/admin/CascadeProjects/fenix8-watchface/DK-Modern/source/DK-ModernView.mc"; @line = 4; @symbol_importdef<0> = [Toybox,4,7,13]; @symbol_importdef<1> = [WatchUi,4,14,21]; ]
+import Toybox.WatchUi;
+[ @file = "/Users/admin/CascadeProjects/fenix8-watchface/DK-Modern/source/DK-ModernView.mc"; @line = 5; @symbol_importdef<0> = [Toybox,5,7,13]; @symbol_importdef<1> = [Time,5,14,18]; ]
+import Toybox.Time;
+[ @file = "/Users/admin/CascadeProjects/fenix8-watchface/DK-Modern/source/DK-ModernView.mc"; @line = 6; @symbol_importdef<0> = [Toybox,6,7,13]; @symbol_importdef<1> = [Time,6,14,18]; @symbol_importdef<2> = [Gregorian,6,19,28]; ]
+import Toybox.Time.Gregorian;
+[ @file = "/Users/admin/CascadeProjects/fenix8-watchface/DK-Modern/source/DK-ModernView.mc"; @line = 7; @symbol_importdef<0> = [Toybox,7,7,13]; @symbol_importdef<1> = [ActivityMonitor,7,14,29]; ]
+import Toybox.ActivityMonitor;
+[ @file = "/Users/admin/CascadeProjects/fenix8-watchface/DK-Modern/source/DK-ModernView.mc"; @line = 8; @symbol_importdef<0> = [Toybox,8,7,13]; @symbol_importdef<1> = [Activity,8,14,22]; ]
+import Toybox.Activity;
+[ @file = "/Users/admin/CascadeProjects/fenix8-watchface/DK-Modern/source/DK-ModernView.mc"; @line = 9; @symbol_importdef<0> = [Toybox,9,7,13]; @symbol_importdef<1> = [Weather,9,14,21]; ]
+import Toybox.Weather;
+[ @file = "/Users/admin/CascadeProjects/fenix8-watchface/DK-Modern/source/DK-ModernView.mc"; @line = 12; background = true; @symbol_classdef = [DK_ModernView,12,6,19]; @symbol_extends<0> = [WatchUi,12,28,35]; @symbol_extends<1> = [WatchFace,12,36,45]; ]
+class DK_ModernView extends WatchUi.WatchFace {
+    [ @file = "/Users/admin/CascadeProjects/fenix8-watchface/DK-Modern/source/DK-ModernView.mc"; @line = 12; ]
+    <init> {
+    }
+    [ @file = "/Users/admin/CascadeProjects/fenix8-watchface/DK-Modern/source/DK-ModernView.mc"; @line = 12; ]
+    static
+    <init> {
+    }
+    [ @file = "/Users/admin/CascadeProjects/fenix8-watchface/DK-Modern/source/DK-ModernView.mc"; @line = 14; @symbol_functiondef = [initialize,14,13,23]; ]
+    function initialize() as Void {
+_Users_admin_CascadeProjects_fenix8_watchface_DK_Modern_source_DK_ModernView_mc_14_26_16_4_start:
+[ "/Users/admin/CascadeProjects/fenix8-watchface/DK-Modern/source/DK-ModernView.mc" 15 8 ]
+        symbol [ WatchFace %tmp.2 15 8 17 ];
+        %tmp.2 = getv ? :WatchFace;
+        symbol [ initialize %tmp.3 15 18 28 ];
+        %tmp.3 = getv function %tmp.2 :initialize;
+        invoke %tmp.2 %tmp.3();
+_Users_admin_CascadeProjects_fenix8_watchface_DK_Modern_source_DK_ModernView_mc_14_26_16_4_stop:
+    }
+    [ @file = "/Users/admin/CascadeProjects/fenix8-watchface/DK-Modern/source/DK-ModernView.mc"; @line = 19; @symbol_functiondef = [onLayout,19,13,21]; @symbol_param<0> = [dc,19,22,24]; @symbol_param<0>_type<0> = [Dc,19,28,30]; ]
+    function onLayout(dc as Dc) as Void {
+    }
+    [ @file = "/Users/admin/CascadeProjects/fenix8-watchface/DK-Modern/source/DK-ModernView.mc"; @line = 26; @symbol_functiondef = [onShow,26,13,19]; ]
+    function onShow() as Void {
+    }
+    [ @file = "/Users/admin/CascadeProjects/fenix8-watchface/DK-Modern/source/DK-ModernView.mc"; @line = 30; @symbol_functiondef = [onUpdate,30,13,21]; @symbol_param<0> = [dc,30,22,24]; @symbol_param<0>_type<0> = [Dc,30,28,30]; ]
+    function onUpdate(dc as Dc) as Void {
+_Users_admin_CascadeProjects_fenix8_watchface_DK_Modern_source_DK_ModernView_mc_30_40_101_4_start:
+[ "/Users/admin/CascadeProjects/fenix8-watchface/DK-Modern/source/DK-ModernView.mc" 32 8 ]
+        %tmp.1 = lgetv %dc;
+        symbol [ dc %tmp.1 32 8 10 ];
+        symbol [ setColor %tmp.2 32 11 19 ];
+        %tmp.2 = getv function %tmp.1 :setColor;
+        symbol [ Graphics %tmp.3 32 20 28 ];
+        %tmp.3 = getm $.Toybox.Graphics;
+        symbol [ COLOR_BLACK %tmp.4 32 29 40 ];
+        %tmp.4 = getv %tmp.3 :COLOR_BLACK;
+        symbol [ Graphics %tmp.5 32 42 50 ];
+        %tmp.5 = getm $.Toybox.Graphics;
+        symbol [ COLOR_BLACK %tmp.6 32 51 62 ];
+        %tmp.6 = getv %tmp.5 :COLOR_BLACK;
+        invoke %tmp.1 %tmp.2(%tmp.4, %tmp.6);
+[ "/Users/admin/CascadeProjects/fenix8-watchface/DK-Modern/source/DK-ModernView.mc" 33 8 ]
+        %tmp.7 = lgetv %dc;
+        symbol [ dc %tmp.7 33 8 10 ];
+        symbol [ clear %tmp.8 33 11 16 ];
+        %tmp.8 = getv function %tmp.7 :clear;
+        invoke %tmp.7 %tmp.8();
+[ "/Users/admin/CascadeProjects/fenix8-watchface/DK-Modern/source/DK-ModernView.mc" 36 8 ]
+        %tmp.9 = lgetv %dc;
+        symbol [ dc %tmp.9 36 8 10 ];
+        symbol [ setColor %tmp.10 36 11 19 ];
+        %tmp.10 = getv function %tmp.9 :setColor;
+        symbol [ Graphics %tmp.11 36 20 28 ];
+        %tmp.11 = getm $.Toybox.Graphics;
+        symbol [ COLOR_WHITE %tmp.12 36 29 40 ];
+        %tmp.12 = getv %tmp.11 :COLOR_WHITE;
+        symbol [ Graphics %tmp.13 36 42 50 ];
+        %tmp.13 = getm $.Toybox.Graphics;
+        symbol [ COLOR_TRANSPARENT %tmp.14 36 51 68 ];
+        %tmp.14 = getv %tmp.13 :COLOR_TRANSPARENT;
+        invoke %tmp.9 %tmp.10(%tmp.12, %tmp.14);
+[ "/Users/admin/CascadeProjects/fenix8-watchface/DK-Modern/source/DK-ModernView.mc" 39 8 ]
+        [ "_Users_admin_CascadeProjects_fenix8_watchface_DK_Modern_source_DK_ModernView_mc_30_40_101_4_start" "_Users_admin_CascadeProjects_fenix8_watchface_DK_Modern_source_DK_ModernView_mc_30_40_101_4_stop" ]
+        %clockTime.1 = local;
+        symbol [ clockTime %clockTime.1 39 12 21 ];
+        symbol [ System %tmp.15 39 24 30 ];
+        %tmp.15 = getm $.Toybox.System;
+        symbol [ getClockTime %tmp.16 39 31 43 ];
+        %tmp.16 = getv function %tmp.15 :getClockTime;
+        %tmp.17 = invoke %tmp.15 %tmp.16();
+        lputv %clockTime.1 %tmp.17;
+        symbol [ clockTime %clockTime.1 39 12 21 ];
+[ "/Users/admin/CascadeProjects/fenix8-watchface/DK-Modern/source/DK-ModernView.mc" 40 8 ]
+        [ "_Users_admin_CascadeProjects_fenix8_watchface_DK_Modern_source_DK_ModernView_mc_30_40_101_4_start" "_Users_admin_CascadeProjects_fenix8_watchface_DK_Modern_source_DK_ModernView_mc_30_40_101_4_stop" ]
+        %timeStr.2 = local;
+        symbol [ timeStr %timeStr.2 40 12 19 ];
+        symbol [ Lang %tmp.18 40 22 26 ];
+        %tmp.18 = getm $.Toybox.Lang;
+        symbol [ format %tmp.19 40 27 33 ];
+        %tmp.19 = getv function %tmp.18 :format;
+        %tmp.20 = "$1$:$2$";
+        %tmp.21 = newa 2;
+        %tmp.22 = lgetv %clockTime.1;
+        symbol [ clockTime %tmp.22 41 12 21 ];
+        symbol [ hour %tmp.23 41 22 26 ];
+        %tmp.23 = getv %tmp.22 :hour;
+        symbol [ format %tmp.24 41 27 33 ];
+        %tmp.24 = getv function %tmp.23 :format;
+        %tmp.25 = "%02d";
+        %tmp.26 = invoke %tmp.23 %tmp.24(%tmp.25);
+        %tmp.27 = dup %tmp.21;
+        %tmp.28 = aputv %tmp.27 0 %tmp.26;
+        %tmp.29 = lgetv %clockTime.1;
+        symbol [ clockTime %tmp.29 42 12 21 ];
+        symbol [ min %tmp.30 42 22 25 ];
+        %tmp.30 = getv %tmp.29 :min;
+        symbol [ format %tmp.31 42 26 32 ];
+        %tmp.31 = getv function %tmp.30 :format;
+        %tmp.32 = "%02d";
+        %tmp.33 = invoke %tmp.30 %tmp.31(%tmp.32);
+        %tmp.34 = dup %tmp.28;
+        %tmp.35 = aputv %tmp.34 1 %tmp.33;
+        %tmp.36 = invoke %tmp.18 %tmp.19(%tmp.20, %tmp.35);
+        lputv %timeStr.2 %tmp.36;
+        symbol [ timeStr %timeStr.2 40 12 19 ];
+[ "/Users/admin/CascadeProjects/fenix8-watchface/DK-Modern/source/DK-ModernView.mc" 46 8 ]
+        [ "_Users_admin_CascadeProjects_fenix8_watchface_DK_Modern_source_DK_ModernView_mc_30_40_101_4_start" "_Users_admin_CascadeProjects_fenix8_watchface_DK_Modern_source_DK_ModernView_mc_30_40_101_4_stop" ]
+        %today.3 = local;
+        symbol [ today %today.3 46 12 17 ];
+        symbol [ Gregorian %tmp.37 46 20 29 ];
+        %tmp.37 = getm $.Toybox.Time.Gregorian;
+        symbol [ info %tmp.38 46 30 34 ];
+        %tmp.38 = getv function %tmp.37 :info;
+        symbol [ Time %tmp.39 46 35 39 ];
+        %tmp.39 = getm $.Toybox.Time;
+        symbol [ now %tmp.40 46 40 43 ];
+        %tmp.40 = getv function %tmp.39 :now;
+        %tmp.41 = invoke %tmp.39 %tmp.40();
+        symbol [ Time %tmp.42 46 47 51 ];
+        %tmp.42 = getm $.Toybox.Time;
+        symbol [ FORMAT_SHORT %tmp.43 46 52 64 ];
+        %tmp.43 = getv %tmp.42 :FORMAT_SHORT;
+        %tmp.44 = invoke %tmp.37 %tmp.38(%tmp.41, %tmp.43);
+        lputv %today.3 %tmp.44;
+        symbol [ today %today.3 46 12 17 ];
+[ "/Users/admin/CascadeProjects/fenix8-watchface/DK-Modern/source/DK-ModernView.mc" 47 8 ]
+        [ "_Users_admin_CascadeProjects_fenix8_watchface_DK_Modern_source_DK_ModernView_mc_30_40_101_4_start" "_Users_admin_CascadeProjects_fenix8_watchface_DK_Modern_source_DK_ModernView_mc_30_40_101_4_stop" ]
+        %dateStr.4 = local;
+        symbol [ dateStr %dateStr.4 47 12 19 ];
+        symbol [ Lang %tmp.45 47 22 26 ];
+        %tmp.45 = getm $.Toybox.Lang;
+        symbol [ format %tmp.46 47 27 33 ];
+        %tmp.46 = getv function %tmp.45 :format;
+        %tmp.47 = "$1$.$2$.";
+        %tmp.48 = newa 2;
+        %tmp.49 = lgetv %today.3;
+        symbol [ today %tmp.49 48 12 17 ];
+        symbol [ day %tmp.50 48 18 21 ];
+        %tmp.50 = getv %tmp.49 :day;
+        symbol [ format %tmp.51 48 22 28 ];
+        %tmp.51 = getv function %tmp.50 :format;
+        %tmp.52 = "%02d";
+        %tmp.53 = invoke %tmp.50 %tmp.51(%tmp.52);
+        %tmp.54 = dup %tmp.48;
+        %tmp.55 = aputv %tmp.54 0 %tmp.53;
+        %tmp.56 = lgetv %today.3;
+        symbol [ today %tmp.56 49 13 18 ];
+        symbol [ month %tmp.57 49 19 24 ];
+        %tmp.57 = getv %tmp.56 :month;
+        %tmp.58 = 1;
+        %tmp.59 = add %tmp.57 %tmp.58;
+        symbol [ format %tmp.60 49 30 36 ];
+        %tmp.60 = getv function %tmp.59 :format;
+        %tmp.61 = "%02d";
+        %tmp.62 = invoke %tmp.59 %tmp.60(%tmp.61);
+        %tmp.63 = dup %tmp.55;
+        %tmp.64 = aputv %tmp.63 1 %tmp.62;
+        %tmp.65 = invoke %tmp.45 %tmp.46(%tmp.47, %tmp.64);
+        lputv %dateStr.4 %tmp.65;
+        symbol [ dateStr %dateStr.4 47 12 19 ];
+[ "/Users/admin/CascadeProjects/fenix8-watchface/DK-Modern/source/DK-ModernView.mc" 53 8 ]
+        [ "_Users_admin_CascadeProjects_fenix8_watchface_DK_Modern_source_DK_ModernView_mc_30_40_101_4_start" "_Users_admin_CascadeProjects_fenix8_watchface_DK_Modern_source_DK_ModernView_mc_30_40_101_4_stop" ]
+        %battery.5 = local;
+        symbol [ battery %battery.5 53 12 19 ];
+        symbol [ System %tmp.66 53 22 28 ];
+        %tmp.66 = getm $.Toybox.System;
+        symbol [ getSystemStats %tmp.67 53 29 43 ];
+        %tmp.67 = getv function %tmp.66 :getSystemStats;
+        %tmp.68 = invoke %tmp.66 %tmp.67();
+        symbol [ battery %tmp.69 53 46 53 ];
+        %tmp.69 = getv %tmp.68 :battery;
+        lputv %battery.5 %tmp.69;
+        symbol [ battery %battery.5 53 12 19 ];
+[ "/Users/admin/CascadeProjects/fenix8-watchface/DK-Modern/source/DK-ModernView.mc" 54 8 ]
+        [ "_Users_admin_CascadeProjects_fenix8_watchface_DK_Modern_source_DK_ModernView_mc_30_40_101_4_start" "_Users_admin_CascadeProjects_fenix8_watchface_DK_Modern_source_DK_ModernView_mc_30_40_101_4_stop" ]
+        %batteryStr.6 = local;
+        symbol [ batteryStr %batteryStr.6 54 12 22 ];
+        %tmp.70 = lgetv %battery.5;
+        symbol [ battery %tmp.70 54 25 32 ];
+        symbol [ format %tmp.71 54 33 39 ];
+        %tmp.71 = getv function %tmp.70 :format;
+        %tmp.72 = "%d";
+        %tmp.73 = invoke %tmp.70 %tmp.71(%tmp.72);
+        %tmp.74 = "%";
+        %tmp.75 = add %tmp.73 %tmp.74;
+        lputv %batteryStr.6 %tmp.75;
+        symbol [ batteryStr %batteryStr.6 54 12 22 ];
+[ "/Users/admin/CascadeProjects/fenix8-watchface/DK-Modern/source/DK-ModernView.mc" 57 8 ]
+        [ "_Users_admin_CascadeProjects_fenix8_watchface_DK_Modern_source_DK_ModernView_mc_30_40_101_4_start" "_Users_admin_CascadeProjects_fenix8_watchface_DK_Modern_source_DK_ModernView_mc_30_40_101_4_stop" ]
+        %steps.7 = local;
+        symbol [ steps %steps.7 57 12 17 ];
+        symbol [ ActivityMonitor %tmp.76 57 20 35 ];
+        %tmp.76 = getm $.Toybox.ActivityMonitor;
+        symbol [ getInfo %tmp.77 57 36 43 ];
+        %tmp.77 = getv function %tmp.76 :getInfo;
+        %tmp.78 = invoke %tmp.76 %tmp.77();
+        symbol [ steps %tmp.79 57 46 51 ];
+        %tmp.79 = getv %tmp.78 :steps;
+        lputv %steps.7 %tmp.79;
+        symbol [ steps %steps.7 57 12 17 ];
+[ "/Users/admin/CascadeProjects/fenix8-watchface/DK-Modern/source/DK-ModernView.mc" 58 8 ]
+        [ "_Users_admin_CascadeProjects_fenix8_watchface_DK_Modern_source_DK_ModernView_mc_30_40_101_4_start" "_Users_admin_CascadeProjects_fenix8_watchface_DK_Modern_source_DK_ModernView_mc_30_40_101_4_stop" ]
+        %stepsStr.8 = local;
+        symbol [ stepsStr %stepsStr.8 58 12 20 ];
+        %tmp.80 = lgetv %steps.7;
+        symbol [ steps %tmp.80 58 23 28 ];
+        symbol [ toString %tmp.81 58 29 37 ];
+        %tmp.81 = getv function %tmp.80 :toString;
+        %tmp.82 = invoke %tmp.80 %tmp.81();
+        lputv %stepsStr.8 %tmp.82;
+        symbol [ stepsStr %stepsStr.8 58 12 20 ];
+[ "/Users/admin/CascadeProjects/fenix8-watchface/DK-Modern/source/DK-ModernView.mc" 61 8 ]
+        [ "_Users_admin_CascadeProjects_fenix8_watchface_DK_Modern_source_DK_ModernView_mc_30_40_101_4_start" "_Users_admin_CascadeProjects_fenix8_watchface_DK_Modern_source_DK_ModernView_mc_30_40_101_4_stop" ]
+        %weatherInfo.9 = local;
+        symbol [ weatherInfo %weatherInfo.9 61 12 23 ];
+        symbol [ Weather %tmp.83 61 26 33 ];
+        %tmp.83 = getm $.Toybox.Weather;
+        symbol [ getCurrentConditions %tmp.84 61 34 54 ];
+        %tmp.84 = getv function %tmp.83 :getCurrentConditions;
+        %tmp.85 = invoke %tmp.83 %tmp.84();
+        lputv %weatherInfo.9 %tmp.85;
+        symbol [ weatherInfo %weatherInfo.9 61 12 23 ];
+[ "/Users/admin/CascadeProjects/fenix8-watchface/DK-Modern/source/DK-ModernView.mc" 62 8 ]
+        [ "_Users_admin_CascadeProjects_fenix8_watchface_DK_Modern_source_DK_ModernView_mc_30_40_101_4_start" "_Users_admin_CascadeProjects_fenix8_watchface_DK_Modern_source_DK_ModernView_mc_30_40_101_4_stop" ]
+        %tempStr.10 = local;
+        symbol [ tempStr %tempStr.10 62 12 19 ];
+        %tmp.86 = "--°C";
+        lputv %tempStr.10 %tmp.86;
+        symbol [ tempStr %tempStr.10 62 12 19 ];
+[ "/Users/admin/CascadeProjects/fenix8-watchface/DK-Modern/source/DK-ModernView.mc" 63 8 ]
+_Users_admin_CascadeProjects_fenix8_watchface_DK_Modern_source_DK_ModernView_mc_63_8_65_8_if_stmt:
+_Users_admin_CascadeProjects_fenix8_watchface_DK_Modern_source_DK_ModernView_mc_63_12_63_62_begin:
+        %tmp.87 = lgetv %weatherInfo.9;
+        symbol [ weatherInfo %tmp.87 63 12 23 ];
+        %tmp.88 = null;
+        %tmp.89 = ne %tmp.87 %tmp.88;
+        bf %tmp.89 @_Users_admin_CascadeProjects_fenix8_watchface_DK_Modern_source_DK_ModernView_mc_63_8_65_8_if_end;
+_Users_admin_CascadeProjects_fenix8_watchface_DK_Modern_source_DK_ModernView_mc_63_35_63_62_true:
+        %tmp.90 = lgetv %weatherInfo.9;
+        symbol [ weatherInfo %tmp.90 63 35 46 ];
+        %tmp.91 = as %tmp.90 { (!Null) };
+        symbol [ temperature %tmp.92 63 47 58 ];
+        %tmp.92 = getv %tmp.91 :temperature;
+        %tmp.93 = null;
+        %tmp.94 = ne %tmp.92 %tmp.93;
+        push %tmp.94;
+_Users_admin_CascadeProjects_fenix8_watchface_DK_Modern_source_DK_ModernView_mc_63_35_63_62_end:
+        %tmp.95 = phi [%tmp.89 @_Users_admin_CascadeProjects_fenix8_watchface_DK_Modern_source_DK_ModernView_mc_63_12_63_62_begin] [%tmp.94 @_Users_admin_CascadeProjects_fenix8_watchface_DK_Modern_source_DK_ModernView_mc_63_35_63_62_true] [%tmp.95 @_Users_admin_CascadeProjects_fenix8_watchface_DK_Modern_source_DK_ModernView_mc_63_35_63_62_end];
+        bf %tmp.95 @_Users_admin_CascadeProjects_fenix8_watchface_DK_Modern_source_DK_ModernView_mc_63_8_65_8_if_end;
+_Users_admin_CascadeProjects_fenix8_watchface_DK_Modern_source_DK_ModernView_mc_63_8_65_8_if_true:
+_Users_admin_CascadeProjects_fenix8_watchface_DK_Modern_source_DK_ModernView_mc_63_68_65_8_start:
+[ "/Users/admin/CascadeProjects/fenix8-watchface/DK-Modern/source/DK-ModernView.mc" 64 12 ]
+        %tmp.96 = lgetv %weatherInfo.9;
+        symbol [ weatherInfo %tmp.96 64 22 33 ];
+        %tmp.97 = as %tmp.96 { (!Null) };
+        symbol [ temperature %tmp.98 64 34 45 ];
+        %tmp.98 = getv %tmp.97 :temperature;
+        symbol [ format %tmp.99 64 46 52 ];
+        %tmp.99 = getv function %tmp.98 :format;
+        %tmp.100 = "%d";
+        %tmp.101 = invoke %tmp.98 %tmp.99(%tmp.100);
+        %tmp.102 = "°C";
+        %tmp.103 = add %tmp.101 %tmp.102;
+        lputv %tempStr.10 %tmp.103;
+        symbol [ tempStr %tempStr.10 64 12 19 ];
+_Users_admin_CascadeProjects_fenix8_watchface_DK_Modern_source_DK_ModernView_mc_63_68_65_8_stop:
+        goto @_Users_admin_CascadeProjects_fenix8_watchface_DK_Modern_source_DK_ModernView_mc_63_8_65_8_if_end;
+_Users_admin_CascadeProjects_fenix8_watchface_DK_Modern_source_DK_ModernView_mc_63_8_65_8_if_end:
+[ "/Users/admin/CascadeProjects/fenix8-watchface/DK-Modern/source/DK-ModernView.mc" 68 8 ]
+        [ "_Users_admin_CascadeProjects_fenix8_watchface_DK_Modern_source_DK_ModernView_mc_30_40_101_4_start" "_Users_admin_CascadeProjects_fenix8_watchface_DK_Modern_source_DK_ModernView_mc_30_40_101_4_stop" ]
+        %heartRate.11 = local;
+        symbol [ heartRate %heartRate.11 68 12 21 ];
+        %tmp.104 = "--";
+        lputv %heartRate.11 %tmp.104;
+        symbol [ heartRate %heartRate.11 68 12 21 ];
+[ "/Users/admin/CascadeProjects/fenix8-watchface/DK-Modern/source/DK-ModernView.mc" 69 8 ]
+        [ "_Users_admin_CascadeProjects_fenix8_watchface_DK_Modern_source_DK_ModernView_mc_30_40_101_4_start" "_Users_admin_CascadeProjects_fenix8_watchface_DK_Modern_source_DK_ModernView_mc_30_40_101_4_stop" ]
+        %hrInfo.12 = local;
+        symbol [ hrInfo %hrInfo.12 69 12 18 ];
+        symbol [ Activity %tmp.105 69 21 29 ];
+        %tmp.105 = getm $.Toybox.Activity;
+        symbol [ getActivityInfo %tmp.106 69 30 45 ];
+        %tmp.106 = getv function %tmp.105 :getActivityInfo;
+        %tmp.107 = invoke %tmp.105 %tmp.106();
+        lputv %hrInfo.12 %tmp.107;
+        symbol [ hrInfo %hrInfo.12 69 12 18 ];
+[ "/Users/admin/CascadeProjects/fenix8-watchface/DK-Modern/source/DK-ModernView.mc" 70 8 ]
+_Users_admin_CascadeProjects_fenix8_watchface_DK_Modern_source_DK_ModernView_mc_70_8_80_8_if_stmt:
+_Users_admin_CascadeProjects_fenix8_watchface_DK_Modern_source_DK_ModernView_mc_70_12_70_57_begin:
+        %tmp.108 = lgetv %hrInfo.12;
+        symbol [ hrInfo %tmp.108 70 12 18 ];
+        %tmp.109 = null;
+        %tmp.110 = ne %tmp.108 %tmp.109;
+        bf %tmp.110 @_Users_admin_CascadeProjects_fenix8_watchface_DK_Modern_source_DK_ModernView_mc_70_8_80_8_if_else_false;
+_Users_admin_CascadeProjects_fenix8_watchface_DK_Modern_source_DK_ModernView_mc_70_30_70_57_true:
+        %tmp.111 = lgetv %hrInfo.12;
+        symbol [ hrInfo %tmp.111 70 30 36 ];
+        %tmp.112 = as %tmp.111 { (!Null) };
+        symbol [ currentHeartRate %tmp.113 70 37 53 ];
+        %tmp.113 = getv %tmp.112 :currentHeartRate;
+        %tmp.114 = null;
+        %tmp.115 = ne %tmp.113 %tmp.114;
+        push %tmp.115;
+_Users_admin_CascadeProjects_fenix8_watchface_DK_Modern_source_DK_ModernView_mc_70_30_70_57_end:
+        %tmp.116 = phi [%tmp.110 @_Users_admin_CascadeProjects_fenix8_watchface_DK_Modern_source_DK_ModernView_mc_70_12_70_57_begin] [%tmp.115 @_Users_admin_CascadeProjects_fenix8_watchface_DK_Modern_source_DK_ModernView_mc_70_30_70_57_true] [%tmp.116 @_Users_admin_CascadeProjects_fenix8_watchface_DK_Modern_source_DK_ModernView_mc_70_30_70_57_end];
+        bf %tmp.116 @_Users_admin_CascadeProjects_fenix8_watchface_DK_Modern_source_DK_ModernView_mc_70_8_80_8_if_else_false;
+_Users_admin_CascadeProjects_fenix8_watchface_DK_Modern_source_DK_ModernView_mc_70_8_80_8_if_true:
+_Users_admin_CascadeProjects_fenix8_watchface_DK_Modern_source_DK_ModernView_mc_70_63_72_8_start:
+[ "/Users/admin/CascadeProjects/fenix8-watchface/DK-Modern/source/DK-ModernView.mc" 71 12 ]
+        %tmp.117 = lgetv %hrInfo.12;
+        symbol [ hrInfo %tmp.117 71 24 30 ];
+        %tmp.118 = as %tmp.117 { (!Null) };
+        symbol [ currentHeartRate %tmp.119 71 31 47 ];
+        %tmp.119 = getv %tmp.118 :currentHeartRate;
+        symbol [ toString %tmp.120 71 48 56 ];
+        %tmp.120 = getv function %tmp.119 :toString;
+        %tmp.121 = invoke %tmp.119 %tmp.120();
+        lputv %heartRate.11 %tmp.121;
+        symbol [ heartRate %heartRate.11 71 12 21 ];
+_Users_admin_CascadeProjects_fenix8_watchface_DK_Modern_source_DK_ModernView_mc_70_63_72_8_stop:
+        goto @_Users_admin_CascadeProjects_fenix8_watchface_DK_Modern_source_DK_ModernView_mc_70_8_80_8_if_end;
+_Users_admin_CascadeProjects_fenix8_watchface_DK_Modern_source_DK_ModernView_mc_70_8_80_8_if_else_false:
+_Users_admin_CascadeProjects_fenix8_watchface_DK_Modern_source_DK_ModernView_mc_72_15_80_8_start:
+[ "/Users/admin/CascadeProjects/fenix8-watchface/DK-Modern/source/DK-ModernView.mc" 73 12 ]
+        [ "_Users_admin_CascadeProjects_fenix8_watchface_DK_Modern_source_DK_ModernView_mc_72_15_80_8_start" "_Users_admin_CascadeProjects_fenix8_watchface_DK_Modern_source_DK_ModernView_mc_72_15_80_8_stop" ]
+        %hrIterator.13 = local;
+        symbol [ hrIterator %hrIterator.13 73 16 26 ];
+        symbol [ ActivityMonitor %tmp.122 73 29 44 ];
+        %tmp.122 = getm $.Toybox.ActivityMonitor;
+        symbol [ getHeartRateHistory %tmp.123 73 45 64 ];
+        %tmp.123 = getv function %tmp.122 :getHeartRateHistory;
+        %tmp.124 = 1;
+        %tmp.125 = true;
+        %tmp.126 = invoke %tmp.122 %tmp.123(%tmp.124, %tmp.125);
+        lputv %hrIterator.13 %tmp.126;
+        symbol [ hrIterator %hrIterator.13 73 16 26 ];
+[ "/Users/admin/CascadeProjects/fenix8-watchface/DK-Modern/source/DK-ModernView.mc" 74 12 ]
+_Users_admin_CascadeProjects_fenix8_watchface_DK_Modern_source_DK_ModernView_mc_74_12_79_12_if_stmt:
+        %tmp.127 = lgetv %hrIterator.13;
+        symbol [ hrIterator %tmp.127 74 16 26 ];
+        %tmp.128 = null;
+        %tmp.129 = ne %tmp.127 %tmp.128;
+        bf %tmp.129 @_Users_admin_CascadeProjects_fenix8_watchface_DK_Modern_source_DK_ModernView_mc_74_12_79_12_if_end;
+_Users_admin_CascadeProjects_fenix8_watchface_DK_Modern_source_DK_ModernView_mc_74_12_79_12_if_true:
+_Users_admin_CascadeProjects_fenix8_watchface_DK_Modern_source_DK_ModernView_mc_74_36_79_12_start:
+[ "/Users/admin/CascadeProjects/fenix8-watchface/DK-Modern/source/DK-ModernView.mc" 75 16 ]
+        [ "_Users_admin_CascadeProjects_fenix8_watchface_DK_Modern_source_DK_ModernView_mc_74_36_79_12_start" "_Users_admin_CascadeProjects_fenix8_watchface_DK_Modern_source_DK_ModernView_mc_74_36_79_12_stop" ]
+        %sample.14 = local;
+        symbol [ sample %sample.14 75 20 26 ];
+        %tmp.130 = lgetv %hrIterator.13;
+        symbol [ hrIterator %tmp.130 75 29 39 ];
+        %tmp.131 = as %tmp.130 { (!Null) };
+        symbol [ next %tmp.132 75 40 44 ];
+        %tmp.132 = getv function %tmp.131 :next;
+        %tmp.133 = invoke %tmp.131 %tmp.132();
+        lputv %sample.14 %tmp.133;
+        symbol [ sample %sample.14 75 20 26 ];
+[ "/Users/admin/CascadeProjects/fenix8-watchface/DK-Modern/source/DK-ModernView.mc" 76 16 ]
+_Users_admin_CascadeProjects_fenix8_watchface_DK_Modern_source_DK_ModernView_mc_76_16_78_16_if_stmt:
+_Users_admin_CascadeProjects_fenix8_watchface_DK_Modern_source_DK_ModernView_mc_76_20_76_58_begin:
+        %tmp.134 = lgetv %sample.14;
+        symbol [ sample %tmp.134 76 20 26 ];
+        %tmp.135 = null;
+        %tmp.136 = ne %tmp.134 %tmp.135;
+        bf %tmp.136 @_Users_admin_CascadeProjects_fenix8_watchface_DK_Modern_source_DK_ModernView_mc_76_16_78_16_if_end;
+_Users_admin_CascadeProjects_fenix8_watchface_DK_Modern_source_DK_ModernView_mc_76_38_76_58_true:
+        %tmp.137 = lgetv %sample.14;
+        symbol [ sample %tmp.137 76 38 44 ];
+        %tmp.138 = as %tmp.137 { (!Null) };
+        symbol [ heartRate %tmp.139 76 45 54 ];
+        %tmp.139 = getv %tmp.138 :heartRate;
+        %tmp.140 = null;
+        %tmp.141 = ne %tmp.139 %tmp.140;
+        push %tmp.141;
+_Users_admin_CascadeProjects_fenix8_watchface_DK_Modern_source_DK_ModernView_mc_76_38_76_58_end:
+        %tmp.142 = phi [%tmp.136 @_Users_admin_CascadeProjects_fenix8_watchface_DK_Modern_source_DK_ModernView_mc_76_20_76_58_begin] [%tmp.141 @_Users_admin_CascadeProjects_fenix8_watchface_DK_Modern_source_DK_ModernView_mc_76_38_76_58_true] [%tmp.142 @_Users_admin_CascadeProjects_fenix8_watchface_DK_Modern_source_DK_ModernView_mc_76_38_76_58_end];
+        bf %tmp.142 @_Users_admin_CascadeProjects_fenix8_watchface_DK_Modern_source_DK_ModernView_mc_76_16_78_16_if_end;
+_Users_admin_CascadeProjects_fenix8_watchface_DK_Modern_source_DK_ModernView_mc_76_16_78_16_if_true:
+_Users_admin_CascadeProjects_fenix8_watchface_DK_Modern_source_DK_ModernView_mc_76_64_78_16_start:
+[ "/Users/admin/CascadeProjects/fenix8-watchface/DK-Modern/source/DK-ModernView.mc" 77 20 ]
+        %tmp.143 = lgetv %sample.14;
+        symbol [ sample %tmp.143 77 32 38 ];
+        %tmp.144 = as %tmp.143 { (!Null) };
+        symbol [ heartRate %tmp.145 77 39 48 ];
+        %tmp.145 = getv %tmp.144 :heartRate;
+        symbol [ toString %tmp.146 77 49 57 ];
+        %tmp.146 = getv function %tmp.145 :toString;
+        %tmp.147 = invoke %tmp.145 %tmp.146();
+        lputv %heartRate.11 %tmp.147;
+        symbol [ heartRate %heartRate.11 77 20 29 ];
+_Users_admin_CascadeProjects_fenix8_watchface_DK_Modern_source_DK_ModernView_mc_76_64_78_16_stop:
+        goto @_Users_admin_CascadeProjects_fenix8_watchface_DK_Modern_source_DK_ModernView_mc_76_16_78_16_if_end;
+_Users_admin_CascadeProjects_fenix8_watchface_DK_Modern_source_DK_ModernView_mc_76_16_78_16_if_end:
+_Users_admin_CascadeProjects_fenix8_watchface_DK_Modern_source_DK_ModernView_mc_74_36_79_12_stop:
+        goto @_Users_admin_CascadeProjects_fenix8_watchface_DK_Modern_source_DK_ModernView_mc_74_12_79_12_if_end;
+_Users_admin_CascadeProjects_fenix8_watchface_DK_Modern_source_DK_ModernView_mc_74_12_79_12_if_end:
+_Users_admin_CascadeProjects_fenix8_watchface_DK_Modern_source_DK_ModernView_mc_72_15_80_8_stop:
+_Users_admin_CascadeProjects_fenix8_watchface_DK_Modern_source_DK_ModernView_mc_70_8_80_8_if_end:
+[ "/Users/admin/CascadeProjects/fenix8-watchface/DK-Modern/source/DK-ModernView.mc" 81 8 ]
+        [ "_Users_admin_CascadeProjects_fenix8_watchface_DK_Modern_source_DK_ModernView_mc_30_40_101_4_start" "_Users_admin_CascadeProjects_fenix8_watchface_DK_Modern_source_DK_ModernView_mc_30_40_101_4_stop" ]
+        %heartStr.15 = local;
+        symbol [ heartStr %heartStr.15 81 12 20 ];
+        %tmp.148 = lgetv %heartRate.11;
+        symbol [ heartRate %tmp.148 81 23 32 ];
+        lputv %heartStr.15 %tmp.148;
+        symbol [ heartStr %heartStr.15 81 12 20 ];
+[ "/Users/admin/CascadeProjects/fenix8-watchface/DK-Modern/source/DK-ModernView.mc" 84 8 ]
+        [ "_Users_admin_CascadeProjects_fenix8_watchface_DK_Modern_source_DK_ModernView_mc_30_40_101_4_start" "_Users_admin_CascadeProjects_fenix8_watchface_DK_Modern_source_DK_ModernView_mc_30_40_101_4_stop" ]
+        %centerX.16 = local;
+        symbol [ centerX %centerX.16 84 12 19 ];
+        %tmp.149 = lgetv %dc;
+        symbol [ dc %tmp.149 84 22 24 ];
+        symbol [ getWidth %tmp.150 84 25 33 ];
+        %tmp.150 = getv function %tmp.149 :getWidth;
+        %tmp.151 = invoke %tmp.149 %tmp.150();
+        %tmp.152 = 2;
+        %tmp.153 = div %tmp.151 %tmp.152;
+        lputv %centerX.16 %tmp.153;
+        symbol [ centerX %centerX.16 84 12 19 ];
+[ "/Users/admin/CascadeProjects/fenix8-watchface/DK-Modern/source/DK-ModernView.mc" 85 8 ]
+        %tmp.154 = lgetv %dc;
+        symbol [ dc %tmp.154 85 8 10 ];
+        symbol [ drawText %tmp.155 85 11 19 ];
+        %tmp.155 = getv function %tmp.154 :drawText;
+        %tmp.156 = lgetv %centerX.16;
+        symbol [ centerX %tmp.156 85 20 27 ];
+        %tmp.157 = 40;
+        symbol [ Graphics %tmp.158 85 33 41 ];
+        %tmp.158 = getm $.Toybox.Graphics;
+        symbol [ FONT_LARGE %tmp.159 85 42 52 ];
+        %tmp.159 = getv %tmp.158 :FONT_LARGE;
+        %tmp.160 = lgetv %timeStr.2;
+        symbol [ timeStr %tmp.160 85 54 61 ];
+        symbol [ Graphics %tmp.161 85 63 71 ];
+        %tmp.161 = getm $.Toybox.Graphics;
+        symbol [ TEXT_JUSTIFY_CENTER %tmp.162 85 72 91 ];
+        %tmp.162 = getv %tmp.161 :TEXT_JUSTIFY_CENTER;
+        invoke %tmp.154 %tmp.155(%tmp.156, %tmp.157, %tmp.159, %tmp.160, %tmp.162);
+[ "/Users/admin/CascadeProjects/fenix8-watchface/DK-Modern/source/DK-ModernView.mc" 88 8 ]
+        %tmp.163 = lgetv %dc;
+        symbol [ dc %tmp.163 88 8 10 ];
+        symbol [ drawText %tmp.164 88 11 19 ];
+        %tmp.164 = getv function %tmp.163 :drawText;
+        %tmp.165 = lgetv %centerX.16;
+        symbol [ centerX %tmp.165 88 20 27 ];
+        %tmp.166 = 80;
+        symbol [ Graphics %tmp.167 88 33 41 ];
+        %tmp.167 = getm $.Toybox.Graphics;
+        symbol [ FONT_MEDIUM %tmp.168 88 42 53 ];
+        %tmp.168 = getv %tmp.167 :FONT_MEDIUM;
+        %tmp.169 = lgetv %dateStr.4;
+        symbol [ dateStr %tmp.169 88 55 62 ];
+        symbol [ Graphics %tmp.170 88 64 72 ];
+        %tmp.170 = getm $.Toybox.Graphics;
+        symbol [ TEXT_JUSTIFY_CENTER %tmp.171 88 73 92 ];
+        %tmp.171 = getv %tmp.170 :TEXT_JUSTIFY_CENTER;
+        invoke %tmp.163 %tmp.164(%tmp.165, %tmp.166, %tmp.168, %tmp.169, %tmp.171);
+[ "/Users/admin/CascadeProjects/fenix8-watchface/DK-Modern/source/DK-ModernView.mc" 91 8 ]
+        %tmp.172 = lgetv %dc;
+        symbol [ dc %tmp.172 91 8 10 ];
+        symbol [ drawText %tmp.173 91 11 19 ];
+        %tmp.173 = getv function %tmp.172 :drawText;
+        %tmp.174 = lgetv %centerX.16;
+        symbol [ centerX %tmp.174 91 20 27 ];
+        %tmp.175 = 120;
+        symbol [ Graphics %tmp.176 91 34 42 ];
+        %tmp.176 = getm $.Toybox.Graphics;
+        symbol [ FONT_MEDIUM %tmp.177 91 43 54 ];
+        %tmp.177 = getv %tmp.176 :FONT_MEDIUM;
+        %tmp.178 = lgetv %heartStr.15;
+        symbol [ heartStr %tmp.178 91 56 64 ];
+        symbol [ Graphics %tmp.179 91 66 74 ];
+        %tmp.179 = getm $.Toybox.Graphics;
+        symbol [ TEXT_JUSTIFY_CENTER %tmp.180 91 75 94 ];
+        %tmp.180 = getv %tmp.179 :TEXT_JUSTIFY_CENTER;
+        invoke %tmp.172 %tmp.173(%tmp.174, %tmp.175, %tmp.177, %tmp.178, %tmp.180);
+[ "/Users/admin/CascadeProjects/fenix8-watchface/DK-Modern/source/DK-ModernView.mc" 94 8 ]
+        %tmp.181 = lgetv %dc;
+        symbol [ dc %tmp.181 94 8 10 ];
+        symbol [ drawText %tmp.182 94 11 19 ];
+        %tmp.182 = getv function %tmp.181 :drawText;
+        %tmp.183 = lgetv %centerX.16;
+        symbol [ centerX %tmp.183 94 20 27 ];
+        %tmp.184 = 160;
+        symbol [ Graphics %tmp.185 94 34 42 ];
+        %tmp.185 = getm $.Toybox.Graphics;
+        symbol [ FONT_MEDIUM %tmp.186 94 43 54 ];
+        %tmp.186 = getv %tmp.185 :FONT_MEDIUM;
+        %tmp.187 = lgetv %stepsStr.8;
+        symbol [ stepsStr %tmp.187 94 56 64 ];
+        symbol [ Graphics %tmp.188 94 66 74 ];
+        %tmp.188 = getm $.Toybox.Graphics;
+        symbol [ TEXT_JUSTIFY_CENTER %tmp.189 94 75 94 ];
+        %tmp.189 = getv %tmp.188 :TEXT_JUSTIFY_CENTER;
+        invoke %tmp.181 %tmp.182(%tmp.183, %tmp.184, %tmp.186, %tmp.187, %tmp.189);
+[ "/Users/admin/CascadeProjects/fenix8-watchface/DK-Modern/source/DK-ModernView.mc" 97 8 ]
+        %tmp.190 = lgetv %dc;
+        symbol [ dc %tmp.190 97 8 10 ];
+        symbol [ drawText %tmp.191 97 11 19 ];
+        %tmp.191 = getv function %tmp.190 :drawText;
+        %tmp.192 = lgetv %centerX.16;
+        symbol [ centerX %tmp.192 97 20 27 ];
+        %tmp.193 = 200;
+        symbol [ Graphics %tmp.194 97 34 42 ];
+        %tmp.194 = getm $.Toybox.Graphics;
+        symbol [ FONT_MEDIUM %tmp.195 97 43 54 ];
+        %tmp.195 = getv %tmp.194 :FONT_MEDIUM;
+        %tmp.196 = lgetv %tempStr.10;
+        symbol [ tempStr %tmp.196 97 56 63 ];
+        symbol [ Graphics %tmp.197 97 65 73 ];
+        %tmp.197 = getm $.Toybox.Graphics;
+        symbol [ TEXT_JUSTIFY_CENTER %tmp.198 97 74 93 ];
+        %tmp.198 = getv %tmp.197 :TEXT_JUSTIFY_CENTER;
+        invoke %tmp.190 %tmp.191(%tmp.192, %tmp.193, %tmp.195, %tmp.196, %tmp.198);
+[ "/Users/admin/CascadeProjects/fenix8-watchface/DK-Modern/source/DK-ModernView.mc" 100 8 ]
+        %tmp.199 = lgetv %dc;
+        symbol [ dc %tmp.199 100 8 10 ];
+        symbol [ drawText %tmp.200 100 11 19 ];
+        %tmp.200 = getv function %tmp.199 :drawText;
+        %tmp.201 = lgetv %centerX.16;
+        symbol [ centerX %tmp.201 100 20 27 ];
+        %tmp.202 = 240;
+        symbol [ Graphics %tmp.203 100 34 42 ];
+        %tmp.203 = getm $.Toybox.Graphics;
+        symbol [ FONT_SMALL %tmp.204 100 43 53 ];
+        %tmp.204 = getv %tmp.203 :FONT_SMALL;
+        %tmp.205 = lgetv %batteryStr.6;
+        symbol [ batteryStr %tmp.205 100 55 65 ];
+        symbol [ Graphics %tmp.206 100 67 75 ];
+        %tmp.206 = getm $.Toybox.Graphics;
+        symbol [ TEXT_JUSTIFY_CENTER %tmp.207 100 76 95 ];
+        %tmp.207 = getv %tmp.206 :TEXT_JUSTIFY_CENTER;
+        invoke %tmp.199 %tmp.200(%tmp.201, %tmp.202, %tmp.204, %tmp.205, %tmp.207);
+_Users_admin_CascadeProjects_fenix8_watchface_DK_Modern_source_DK_ModernView_mc_30_40_101_4_stop:
+    }
+    [ @file = "/Users/admin/CascadeProjects/fenix8-watchface/DK-Modern/source/DK-ModernView.mc"; @line = 106; @symbol_functiondef = [onHide,106,13,19]; ]
+    function onHide() as Void {
+    }
+    [ @file = "/Users/admin/CascadeProjects/fenix8-watchface/DK-Modern/source/DK-ModernView.mc"; @line = 110; @symbol_functiondef = [onExitSleep,110,13,24]; ]
+    function onExitSleep() as Void {
+    }
+    [ @file = "/Users/admin/CascadeProjects/fenix8-watchface/DK-Modern/source/DK-ModernView.mc"; @line = 114; @symbol_functiondef = [onEnterSleep,114,13,25]; ]
+    function onEnterSleep() as Void {
+    }
+}
+[ @file = "/Users/admin/CascadeProjects/fenix8-watchface/DK-Modern/source/DK-ModernView.mc"; @line = 1; ]
+<init> {
+}
