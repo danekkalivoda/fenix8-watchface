@@ -32,8 +32,10 @@ class DK_ModernView extends WatchUi.WatchFace {
         dc.setColor(Graphics.COLOR_BLACK, Graphics.COLOR_BLACK);
         dc.clear();
         
-        // Nastavení bílé barvy pro text
-        dc.setColor(Graphics.COLOR_WHITE, Graphics.COLOR_TRANSPARENT);
+        // Získání rozměrů displeje pro centrování
+        var width = dc.getWidth();
+        var centerX = width / 2;
+        var screenCenterY = dc.getHeight() / 2;
 
         // Získání času
         var clockTime = System.getClockTime();
@@ -42,29 +44,14 @@ class DK_ModernView extends WatchUi.WatchFace {
             clockTime.min.format("%02d")
         ]);
 
-        // Získání datumu - použijeme format() pro zaručení dvoumístného formátu
+        // Získání datumu
         var today = Gregorian.info(Time.now(), Time.FORMAT_SHORT);
         var dateStr = Lang.format("$1$.$2$.", [
             today.day.format("%02d"),
-            (today.month + 1).format("%02d")  // Gregorian používá měsíce 0-11, format() zajistí dvoumístný formát
+            (today.month).format("%02d")
         ]);
 
-        // Získání stavu baterie
-        var battery = System.getSystemStats().battery;
-        var batteryStr = battery.format("%d") + "%";
-
-        // Získání počtu kroků
-        var steps = ActivityMonitor.getInfo().steps;
-        var stepsStr = steps.toString();
-
-        // Získání počasí
-        var weatherInfo = Weather.getCurrentConditions();
-        var tempStr = "--°C";
-        if (weatherInfo != null && weatherInfo.temperature != null) {
-            tempStr = weatherInfo.temperature.format("%d") + "°C";
-        }
-
-        // Získání srdečního tepu
+        // Získání tepu
         var heartRate = "--";
         var hrInfo = Activity.getActivityInfo();
         if (hrInfo != null && hrInfo.currentHeartRate != null) {
@@ -80,24 +67,44 @@ class DK_ModernView extends WatchUi.WatchFace {
         }
         var heartStr = heartRate;
 
-        // Vykreslení času (velké písmo, uprostřed nahoře)
-        var centerX = dc.getWidth() / 2;
-        dc.drawText(centerX, 40, Graphics.FONT_LARGE, timeStr, Graphics.TEXT_JUSTIFY_CENTER);
+        // Získání kroků
+        var steps = ActivityMonitor.getInfo().steps;
+        var stepsStr = steps.toString();
 
-        // Vykreslení datumu (menší písmo, pod časem)
-        dc.drawText(centerX, 80, Graphics.FONT_MEDIUM, dateStr, Graphics.TEXT_JUSTIFY_CENTER);
+        // Získání počasí
+        var weatherInfo = Weather.getCurrentConditions();
+        var tempStr = "--°C";
+        if (weatherInfo != null && weatherInfo.temperature != null) {
+            tempStr = weatherInfo.temperature.format("%d") + "°C";
+        }
 
-        // Vykreslení tepu (menší písmo, pod datumem)
-        dc.drawText(centerX, 120, Graphics.FONT_MEDIUM, heartStr, Graphics.TEXT_JUSTIFY_CENTER);
+        // Vykreslení vodorovných čar nad a pod časem
+        dc.setColor(Graphics.COLOR_DK_GRAY, Graphics.COLOR_TRANSPARENT);
+        dc.setPenWidth(2);
+        
+        // Horní vodorovná čára
+        dc.drawLine(centerX - 100, screenCenterY - 40, centerX + 100, screenCenterY - 40);
+        // Horní svislá čára
+        dc.drawLine(width/2, screenCenterY - 95, width/2, screenCenterY - 40);
+        
+        // Spodní vodorovná čára
+        dc.drawLine(width/4, screenCenterY + 45, width*3/4, screenCenterY + 45);
+        // Spodní svislá čára
+        dc.drawLine(width/2, screenCenterY + 45, width/2, screenCenterY + 85);
 
-        // Vykreslení kroků (menší písmo, pod tepem)
-        dc.drawText(centerX, 160, Graphics.FONT_MEDIUM, stepsStr, Graphics.TEXT_JUSTIFY_CENTER);
+        // Nastavení bílé barvy pro text
+        dc.setColor(Graphics.COLOR_WHITE, Graphics.COLOR_TRANSPARENT);
 
-        // Vykreslení teploty (menší písmo, pod kroky)
-        dc.drawText(centerX, 200, Graphics.FONT_MEDIUM, tempStr, Graphics.TEXT_JUSTIFY_CENTER);
+        // Vykreslení tepu vlevo nahoře a teploty vpravo nahoře
+        dc.drawText(width/2 - 10, screenCenterY - 80, Graphics.FONT_XTINY, heartStr, Graphics.TEXT_JUSTIFY_RIGHT);
+        dc.drawText(width/2 + 10, screenCenterY - 80, Graphics.FONT_XTINY, tempStr, Graphics.TEXT_JUSTIFY_LEFT);
 
-        // Vykreslení stavu baterie (malé písmo, úplně dole)
-        dc.drawText(centerX, 240, Graphics.FONT_SMALL, batteryStr, Graphics.TEXT_JUSTIFY_CENTER);
+        // Vykreslení času (extra velké písmo, uprostřed)
+        dc.drawText(centerX, screenCenterY - 50, Graphics.FONT_NUMBER_HOT, timeStr, Graphics.TEXT_JUSTIFY_CENTER);
+
+        // Vykreslení datumu vlevo dole a kroků vpravo dole
+        dc.drawText(width/2 - 10, screenCenterY + 70, Graphics.FONT_XTINY, dateStr, Graphics.TEXT_JUSTIFY_RIGHT);
+        dc.drawText(width/2 + 10, screenCenterY + 70, Graphics.FONT_XTINY, stepsStr, Graphics.TEXT_JUSTIFY_LEFT);
     }
 
     // Called when this View is removed from the screen. Save the

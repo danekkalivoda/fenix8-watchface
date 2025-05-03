@@ -17,41 +17,46 @@
 <entry filename="/Users/admin/CascadeProjects/fenix8-watchface/DK-Modern/source/DK-ModernView.mc" id="13" lineNum="32" parent="globals/DK_ModernView" pc="268435558" symbol="onUpdate"/>
 <entry filename="/Users/admin/CascadeProjects/fenix8-watchface/DK-Modern/source/DK-ModernView.mc" id="13" lineNum="33" parent="globals/DK_ModernView" pc="268435570" symbol="onUpdate"/>
 <entry filename="/Users/admin/CascadeProjects/fenix8-watchface/DK-Modern/source/DK-ModernView.mc" id="13" lineNum="36" parent="globals/DK_ModernView" pc="268435578" symbol="onUpdate"/>
-<entry filename="/Users/admin/CascadeProjects/fenix8-watchface/DK-Modern/source/DK-ModernView.mc" id="13" lineNum="39" parent="globals/DK_ModernView" pc="268435595" symbol="onUpdate"/>
-<entry filename="/Users/admin/CascadeProjects/fenix8-watchface/DK-Modern/source/DK-ModernView.mc" id="13" lineNum="40" parent="globals/DK_ModernView" pc="268435607" symbol="onUpdate"/>
-<entry filename="/Users/admin/CascadeProjects/fenix8-watchface/DK-Modern/source/DK-ModernView.mc" id="13" lineNum="46" parent="globals/DK_ModernView" pc="268435674" symbol="onUpdate"/>
-<entry filename="/Users/admin/CascadeProjects/fenix8-watchface/DK-Modern/source/DK-ModernView.mc" id="13" lineNum="47" parent="globals/DK_ModernView" pc="268435699" symbol="onUpdate"/>
-<entry filename="/Users/admin/CascadeProjects/fenix8-watchface/DK-Modern/source/DK-ModernView.mc" id="13" lineNum="53" parent="globals/DK_ModernView" pc="268435769" symbol="onUpdate"/>
-<entry filename="/Users/admin/CascadeProjects/fenix8-watchface/DK-Modern/source/DK-ModernView.mc" id="13" lineNum="54" parent="globals/DK_ModernView" pc="268435786" symbol="onUpdate"/>
-<entry filename="/Users/admin/CascadeProjects/fenix8-watchface/DK-Modern/source/DK-ModernView.mc" id="13" lineNum="57" parent="globals/DK_ModernView" pc="268435808" symbol="onUpdate"/>
-<entry filename="/Users/admin/CascadeProjects/fenix8-watchface/DK-Modern/source/DK-ModernView.mc" id="13" lineNum="58" parent="globals/DK_ModernView" pc="268435825" symbol="onUpdate"/>
-<entry filename="/Users/admin/CascadeProjects/fenix8-watchface/DK-Modern/source/DK-ModernView.mc" id="13" lineNum="61" parent="globals/DK_ModernView" pc="268435834" symbol="onUpdate"/>
-<entry filename="/Users/admin/CascadeProjects/fenix8-watchface/DK-Modern/source/DK-ModernView.mc" id="13" lineNum="62" parent="globals/DK_ModernView" pc="268435846" symbol="onUpdate"/>
-<entry filename="/Users/admin/CascadeProjects/fenix8-watchface/DK-Modern/source/DK-ModernView.mc" id="13" lineNum="63" parent="globals/DK_ModernView" pc="268435853" symbol="onUpdate"/>
-<entry filename="/Users/admin/CascadeProjects/fenix8-watchface/DK-Modern/source/DK-ModernView.mc" id="13" lineNum="64" parent="globals/DK_ModernView" pc="268435870" symbol="onUpdate"/>
-<entry filename="/Users/admin/CascadeProjects/fenix8-watchface/DK-Modern/source/DK-ModernView.mc" id="13" lineNum="68" parent="globals/DK_ModernView" pc="268435901" symbol="onUpdate"/>
-<entry filename="/Users/admin/CascadeProjects/fenix8-watchface/DK-Modern/source/DK-ModernView.mc" id="13" lineNum="69" parent="globals/DK_ModernView" pc="268435908" symbol="onUpdate"/>
-<entry filename="/Users/admin/CascadeProjects/fenix8-watchface/DK-Modern/source/DK-ModernView.mc" id="13" lineNum="70" parent="globals/DK_ModernView" pc="268435920" symbol="onUpdate"/>
-<entry filename="/Users/admin/CascadeProjects/fenix8-watchface/DK-Modern/source/DK-ModernView.mc" id="13" lineNum="71" parent="globals/DK_ModernView" pc="268435937" symbol="onUpdate"/>
-<entry filename="/Users/admin/CascadeProjects/fenix8-watchface/DK-Modern/source/DK-ModernView.mc" id="13" lineNum="73" parent="globals/DK_ModernView" pc="268435955" symbol="onUpdate"/>
-<entry filename="/Users/admin/CascadeProjects/fenix8-watchface/DK-Modern/source/DK-ModernView.mc" id="13" lineNum="74" parent="globals/DK_ModernView" pc="268435972" symbol="onUpdate"/>
-<entry filename="/Users/admin/CascadeProjects/fenix8-watchface/DK-Modern/source/DK-ModernView.mc" id="13" lineNum="75" parent="globals/DK_ModernView" pc="268435978" symbol="onUpdate"/>
-<entry filename="/Users/admin/CascadeProjects/fenix8-watchface/DK-Modern/source/DK-ModernView.mc" id="13" lineNum="76" parent="globals/DK_ModernView" pc="268435988" symbol="onUpdate"/>
-<entry filename="/Users/admin/CascadeProjects/fenix8-watchface/DK-Modern/source/DK-ModernView.mc" id="13" lineNum="77" parent="globals/DK_ModernView" pc="268436005" symbol="onUpdate"/>
-<entry filename="/Users/admin/CascadeProjects/fenix8-watchface/DK-Modern/source/DK-ModernView.mc" id="13" lineNum="81" parent="globals/DK_ModernView" pc="268436026" symbol="onUpdate"/>
-<entry filename="/Users/admin/CascadeProjects/fenix8-watchface/DK-Modern/source/DK-ModernView.mc" id="13" lineNum="84" parent="globals/DK_ModernView" pc="268436036" symbol="onUpdate"/>
-<entry filename="/Users/admin/CascadeProjects/fenix8-watchface/DK-Modern/source/DK-ModernView.mc" id="13" lineNum="85" parent="globals/DK_ModernView" pc="268436048" symbol="onUpdate"/>
-<entry filename="/Users/admin/CascadeProjects/fenix8-watchface/DK-Modern/source/DK-ModernView.mc" id="13" lineNum="88" parent="globals/DK_ModernView" pc="268436068" symbol="onUpdate"/>
-<entry filename="/Users/admin/CascadeProjects/fenix8-watchface/DK-Modern/source/DK-ModernView.mc" id="13" lineNum="91" parent="globals/DK_ModernView" pc="268436088" symbol="onUpdate"/>
-<entry filename="/Users/admin/CascadeProjects/fenix8-watchface/DK-Modern/source/DK-ModernView.mc" id="13" lineNum="94" parent="globals/DK_ModernView" pc="268436108" symbol="onUpdate"/>
-<entry filename="/Users/admin/CascadeProjects/fenix8-watchface/DK-Modern/source/DK-ModernView.mc" id="13" lineNum="97" parent="globals/DK_ModernView" pc="268436129" symbol="onUpdate"/>
-<entry filename="/Users/admin/CascadeProjects/fenix8-watchface/DK-Modern/source/DK-ModernView.mc" id="13" lineNum="100" parent="globals/DK_ModernView" pc="268436150" symbol="onUpdate"/>
-<entry filename="/Users/admin/CascadeProjects/fenix8-watchface/DK-Modern/source/DK-ModernApp.mc" id="14" lineNum="27" parent="globals" pc="268436172" symbol="getApp"/>
-<entry filename="/Users/admin/CascadeProjects/fenix8-watchface/DK-Modern/source/DK-ModernApp.mc" id="14" lineNum="28" parent="globals" pc="268436182" symbol="getApp"/>
-<entry filename="/Users/admin/CascadeProjects/fenix8-watchface/DK-Modern/bin/gen/006-B4533-00/source/Rez.mcgen" id="15" lineNum="7" parent="globals/Rez" pc="268436193" symbol="&lt;init&gt;"/>
-<entry filename="/Users/admin/CascadeProjects/fenix8-watchface/DK-Modern/bin/gen/006-B4533-00/source/Rez.mcgen" id="16" lineNum="13" parent="globals/Rez/Layouts" pc="268436213" symbol="WatchFace"/>
-<entry filename="/Users/admin/CascadeProjects/fenix8-watchface/DK-Modern/bin/gen/006-B4533-00/source/Rez.mcgen" id="16" lineNum="14" parent="globals/Rez/Layouts" pc="268436224" symbol="WatchFace"/>
-<entry filename="/Users/admin/CascadeProjects/fenix8-watchface/DK-Modern/bin/gen/006-B4533-00/source/Rez.mcgen" id="16" lineNum="16" parent="globals/Rez/Layouts" pc="268436310" symbol="WatchFace"/>
+<entry filename="/Users/admin/CascadeProjects/fenix8-watchface/DK-Modern/source/DK-ModernView.mc" id="13" lineNum="37" parent="globals/DK_ModernView" pc="268435587" symbol="onUpdate"/>
+<entry filename="/Users/admin/CascadeProjects/fenix8-watchface/DK-Modern/source/DK-ModernView.mc" id="13" lineNum="38" parent="globals/DK_ModernView" pc="268435594" symbol="onUpdate"/>
+<entry filename="/Users/admin/CascadeProjects/fenix8-watchface/DK-Modern/source/DK-ModernView.mc" id="13" lineNum="41" parent="globals/DK_ModernView" pc="268435606" symbol="onUpdate"/>
+<entry filename="/Users/admin/CascadeProjects/fenix8-watchface/DK-Modern/source/DK-ModernView.mc" id="13" lineNum="42" parent="globals/DK_ModernView" pc="268435618" symbol="onUpdate"/>
+<entry filename="/Users/admin/CascadeProjects/fenix8-watchface/DK-Modern/source/DK-ModernView.mc" id="13" lineNum="48" parent="globals/DK_ModernView" pc="268435685" symbol="onUpdate"/>
+<entry filename="/Users/admin/CascadeProjects/fenix8-watchface/DK-Modern/source/DK-ModernView.mc" id="13" lineNum="49" parent="globals/DK_ModernView" pc="268435710" symbol="onUpdate"/>
+<entry filename="/Users/admin/CascadeProjects/fenix8-watchface/DK-Modern/source/DK-ModernView.mc" id="13" lineNum="55" parent="globals/DK_ModernView" pc="268435777" symbol="onUpdate"/>
+<entry filename="/Users/admin/CascadeProjects/fenix8-watchface/DK-Modern/source/DK-ModernView.mc" id="13" lineNum="56" parent="globals/DK_ModernView" pc="268435784" symbol="onUpdate"/>
+<entry filename="/Users/admin/CascadeProjects/fenix8-watchface/DK-Modern/source/DK-ModernView.mc" id="13" lineNum="57" parent="globals/DK_ModernView" pc="268435796" symbol="onUpdate"/>
+<entry filename="/Users/admin/CascadeProjects/fenix8-watchface/DK-Modern/source/DK-ModernView.mc" id="13" lineNum="58" parent="globals/DK_ModernView" pc="268435813" symbol="onUpdate"/>
+<entry filename="/Users/admin/CascadeProjects/fenix8-watchface/DK-Modern/source/DK-ModernView.mc" id="13" lineNum="60" parent="globals/DK_ModernView" pc="268435831" symbol="onUpdate"/>
+<entry filename="/Users/admin/CascadeProjects/fenix8-watchface/DK-Modern/source/DK-ModernView.mc" id="13" lineNum="61" parent="globals/DK_ModernView" pc="268435848" symbol="onUpdate"/>
+<entry filename="/Users/admin/CascadeProjects/fenix8-watchface/DK-Modern/source/DK-ModernView.mc" id="13" lineNum="62" parent="globals/DK_ModernView" pc="268435854" symbol="onUpdate"/>
+<entry filename="/Users/admin/CascadeProjects/fenix8-watchface/DK-Modern/source/DK-ModernView.mc" id="13" lineNum="63" parent="globals/DK_ModernView" pc="268435864" symbol="onUpdate"/>
+<entry filename="/Users/admin/CascadeProjects/fenix8-watchface/DK-Modern/source/DK-ModernView.mc" id="13" lineNum="64" parent="globals/DK_ModernView" pc="268435881" symbol="onUpdate"/>
+<entry filename="/Users/admin/CascadeProjects/fenix8-watchface/DK-Modern/source/DK-ModernView.mc" id="13" lineNum="68" parent="globals/DK_ModernView" pc="268435902" symbol="onUpdate"/>
+<entry filename="/Users/admin/CascadeProjects/fenix8-watchface/DK-Modern/source/DK-ModernView.mc" id="13" lineNum="71" parent="globals/DK_ModernView" pc="268435906" symbol="onUpdate"/>
+<entry filename="/Users/admin/CascadeProjects/fenix8-watchface/DK-Modern/source/DK-ModernView.mc" id="13" lineNum="72" parent="globals/DK_ModernView" pc="268435923" symbol="onUpdate"/>
+<entry filename="/Users/admin/CascadeProjects/fenix8-watchface/DK-Modern/source/DK-ModernView.mc" id="13" lineNum="75" parent="globals/DK_ModernView" pc="268435932" symbol="onUpdate"/>
+<entry filename="/Users/admin/CascadeProjects/fenix8-watchface/DK-Modern/source/DK-ModernView.mc" id="13" lineNum="76" parent="globals/DK_ModernView" pc="268435944" symbol="onUpdate"/>
+<entry filename="/Users/admin/CascadeProjects/fenix8-watchface/DK-Modern/source/DK-ModernView.mc" id="13" lineNum="77" parent="globals/DK_ModernView" pc="268435951" symbol="onUpdate"/>
+<entry filename="/Users/admin/CascadeProjects/fenix8-watchface/DK-Modern/source/DK-ModernView.mc" id="13" lineNum="78" parent="globals/DK_ModernView" pc="268435968" symbol="onUpdate"/>
+<entry filename="/Users/admin/CascadeProjects/fenix8-watchface/DK-Modern/source/DK-ModernView.mc" id="13" lineNum="82" parent="globals/DK_ModernView" pc="268435999" symbol="onUpdate"/>
+<entry filename="/Users/admin/CascadeProjects/fenix8-watchface/DK-Modern/source/DK-ModernView.mc" id="13" lineNum="83" parent="globals/DK_ModernView" pc="268436015" symbol="onUpdate"/>
+<entry filename="/Users/admin/CascadeProjects/fenix8-watchface/DK-Modern/source/DK-ModernView.mc" id="13" lineNum="86" parent="globals/DK_ModernView" pc="268436027" symbol="onUpdate"/>
+<entry filename="/Users/admin/CascadeProjects/fenix8-watchface/DK-Modern/source/DK-ModernView.mc" id="13" lineNum="88" parent="globals/DK_ModernView" pc="268436057" symbol="onUpdate"/>
+<entry filename="/Users/admin/CascadeProjects/fenix8-watchface/DK-Modern/source/DK-ModernView.mc" id="13" lineNum="91" parent="globals/DK_ModernView" pc="268436087" symbol="onUpdate"/>
+<entry filename="/Users/admin/CascadeProjects/fenix8-watchface/DK-Modern/source/DK-ModernView.mc" id="13" lineNum="93" parent="globals/DK_ModernView" pc="268436120" symbol="onUpdate"/>
+<entry filename="/Users/admin/CascadeProjects/fenix8-watchface/DK-Modern/source/DK-ModernView.mc" id="13" lineNum="96" parent="globals/DK_ModernView" pc="268436150" symbol="onUpdate"/>
+<entry filename="/Users/admin/CascadeProjects/fenix8-watchface/DK-Modern/source/DK-ModernView.mc" id="13" lineNum="99" parent="globals/DK_ModernView" pc="268436167" symbol="onUpdate"/>
+<entry filename="/Users/admin/CascadeProjects/fenix8-watchface/DK-Modern/source/DK-ModernView.mc" id="13" lineNum="100" parent="globals/DK_ModernView" pc="268436194" symbol="onUpdate"/>
+<entry filename="/Users/admin/CascadeProjects/fenix8-watchface/DK-Modern/source/DK-ModernView.mc" id="13" lineNum="103" parent="globals/DK_ModernView" pc="268436222" symbol="onUpdate"/>
+<entry filename="/Users/admin/CascadeProjects/fenix8-watchface/DK-Modern/source/DK-ModernView.mc" id="13" lineNum="106" parent="globals/DK_ModernView" pc="268436245" symbol="onUpdate"/>
+<entry filename="/Users/admin/CascadeProjects/fenix8-watchface/DK-Modern/source/DK-ModernView.mc" id="13" lineNum="107" parent="globals/DK_ModernView" pc="268436272" symbol="onUpdate"/>
+<entry filename="/Users/admin/CascadeProjects/fenix8-watchface/DK-Modern/source/DK-ModernApp.mc" id="14" lineNum="27" parent="globals" pc="268436301" symbol="getApp"/>
+<entry filename="/Users/admin/CascadeProjects/fenix8-watchface/DK-Modern/source/DK-ModernApp.mc" id="14" lineNum="28" parent="globals" pc="268436311" symbol="getApp"/>
+<entry filename="/Users/admin/CascadeProjects/fenix8-watchface/DK-Modern/bin/gen/006-B4533-00/source/Rez.mcgen" id="15" lineNum="7" parent="globals/Rez" pc="268436322" symbol="&lt;init&gt;"/>
+<entry filename="/Users/admin/CascadeProjects/fenix8-watchface/DK-Modern/bin/gen/006-B4533-00/source/Rez.mcgen" id="16" lineNum="13" parent="globals/Rez/Layouts" pc="268436342" symbol="WatchFace"/>
+<entry filename="/Users/admin/CascadeProjects/fenix8-watchface/DK-Modern/bin/gen/006-B4533-00/source/Rez.mcgen" id="16" lineNum="14" parent="globals/Rez/Layouts" pc="268436353" symbol="WatchFace"/>
+<entry filename="/Users/admin/CascadeProjects/fenix8-watchface/DK-Modern/bin/gen/006-B4533-00/source/Rez.mcgen" id="16" lineNum="16" parent="globals/Rez/Layouts" pc="268436439" symbol="WatchFace"/>
 </pcToLineNum>
 <symbolTable>
 <entry id="8388639" module="true" symbol="Graphics"/>
@@ -100,25 +105,25 @@
 <entry id="8388635" module="true" symbol="Application"/>
 </symbolTable>
 <localVars>
-<entry arg="true" endPc="268436171" name="dc" stackId="1" startPc="268435555"/>
-<entry endPc="268436170" name="clockTime" stackId="2" startPc="268435558"/>
-<entry endPc="268436170" name="timeStr" stackId="3" startPc="268435558"/>
-<entry endPc="268436170" name="today" stackId="4" startPc="268435558"/>
-<entry endPc="268436170" name="dateStr" stackId="5" startPc="268435558"/>
-<entry endPc="268436170" name="battery" stackId="6" startPc="268435558"/>
-<entry endPc="268436170" name="batteryStr" stackId="7" startPc="268435558"/>
-<entry endPc="268436170" name="steps" stackId="8" startPc="268435558"/>
-<entry endPc="268436170" name="stepsStr" stackId="9" startPc="268435558"/>
-<entry endPc="268436170" name="weatherInfo" stackId="10" startPc="268435558"/>
-<entry endPc="268436170" name="tempStr" stackId="11" startPc="268435558"/>
-<entry endPc="268436170" name="heartRate" stackId="12" startPc="268435558"/>
-<entry endPc="268436170" name="hrInfo" stackId="13" startPc="268435558"/>
-<entry endPc="268436025" name="hrIterator" stackId="14" startPc="268435955"/>
-<entry endPc="268436022" name="sample" stackId="15" startPc="268435978"/>
-<entry endPc="268436170" name="heartStr" stackId="16" startPc="268435558"/>
-<entry endPc="268436170" name="centerX" stackId="17" startPc="268435558"/>
-<entry arg="true" endPc="268436319" name="dc" stackId="1" startPc="268436213"/>
-<entry endPc="268436319" name="rez_cmp_local_text_TimeLabel" stackId="2" startPc="268436224"/>
+<entry arg="true" endPc="268436300" name="dc" stackId="1" startPc="268435555"/>
+<entry endPc="268436299" name="width" stackId="2" startPc="268435558"/>
+<entry endPc="268436299" name="centerX" stackId="3" startPc="268435558"/>
+<entry endPc="268436299" name="screenCenterY" stackId="4" startPc="268435558"/>
+<entry endPc="268436299" name="clockTime" stackId="5" startPc="268435558"/>
+<entry endPc="268436299" name="timeStr" stackId="6" startPc="268435558"/>
+<entry endPc="268436299" name="today" stackId="7" startPc="268435558"/>
+<entry endPc="268436299" name="dateStr" stackId="8" startPc="268435558"/>
+<entry endPc="268436299" name="heartRate" stackId="9" startPc="268435558"/>
+<entry endPc="268436299" name="hrInfo" stackId="10" startPc="268435558"/>
+<entry endPc="268435901" name="hrIterator" stackId="11" startPc="268435831"/>
+<entry endPc="268435898" name="sample" stackId="12" startPc="268435854"/>
+<entry endPc="268436299" name="heartStr" stackId="13" startPc="268435558"/>
+<entry endPc="268436299" name="steps" stackId="14" startPc="268435558"/>
+<entry endPc="268436299" name="stepsStr" stackId="15" startPc="268435558"/>
+<entry endPc="268436299" name="weatherInfo" stackId="16" startPc="268435558"/>
+<entry endPc="268436299" name="tempStr" stackId="17" startPc="268435558"/>
+<entry arg="true" endPc="268436448" name="dc" stackId="1" startPc="268436342"/>
+<entry endPc="268436448" name="rez_cmp_local_text_TimeLabel" stackId="2" startPc="268436353"/>
 </localVars>
 <deviceInfo deviceVersion="decc989a3aea752762ecdbe6b3262a92939e1b36" partNumber="006-B4533-00"/>
 <annotations>
@@ -140,10 +145,10 @@
 <dataEntry label="globals" offset="58" parentId="" symbolId="globals" type="module"/>
 <dataEntry label="globals/DK_ModernApp" offset="125" parentId="globals" symbolId="DK_ModernApp" type="class"/>
 <dataEntry label="globals/DK_ModernView" offset="196" parentId="globals" symbolId="DK_ModernView" type="class"/>
-<dataEntry label="globals/Rez" offset="366" parentId="globals" symbolId="Rez" type="module"/>
-<dataEntry label="globals/Rez/Drawables" offset="419" parentId="Rez" symbolId="Drawables" type="module"/>
-<dataEntry label="globals/Rez/Layouts" offset="454" parentId="Rez" symbolId="Layouts" type="module"/>
-<dataEntry label="globals/Rez/Strings" offset="489" parentId="Rez" symbolId="Strings" type="module"/>
+<dataEntry label="globals/Rez" offset="353" parentId="globals" symbolId="Rez" type="module"/>
+<dataEntry label="globals/Rez/Drawables" offset="406" parentId="Rez" symbolId="Drawables" type="module"/>
+<dataEntry label="globals/Rez/Layouts" offset="441" parentId="Rez" symbolId="Layouts" type="module"/>
+<dataEntry label="globals/Rez/Strings" offset="476" parentId="Rez" symbolId="Strings" type="module"/>
 </dataEntryOffsetMappings>
 <functions>
 <functionEntry accessMode="public" endPc="268435471" name="&lt;init&gt;" parent="DK_ModernApp" startPc="268435460">
@@ -185,14 +190,14 @@
 <functionEntry accessMode="public" name="onHide" parent="DK_ModernView">
 <documentation/>
 </functionEntry>
-<functionEntry accessMode="public" endPc="268436171" name="onUpdate" parent="DK_ModernView" startPc="268435555">
+<functionEntry accessMode="public" endPc="268436300" name="onUpdate" parent="DK_ModernView" startPc="268435555">
 <param id="dc"/>
 <documentation/>
 </functionEntry>
-<functionEntry accessMode="public" endPc="268436192" name="getApp" startPc="268436172">
+<functionEntry accessMode="public" endPc="268436321" name="getApp" startPc="268436301">
 <documentation/>
 </functionEntry>
-<functionEntry accessMode="public" endPc="268436212" name="&lt;init&gt;" parent="Rez" startPc="268436193">
+<functionEntry accessMode="public" endPc="268436341" name="&lt;init&gt;" parent="Rez" startPc="268436322">
 <documentation/>
 </functionEntry>
 <functionEntry accessMode="public" name="&lt;init&gt;" parent="Drawables">
@@ -204,7 +209,7 @@
 <functionEntry accessMode="public" name="&lt;init&gt;" parent="Strings">
 <documentation/>
 </functionEntry>
-<functionEntry accessMode="public" endPc="268436319" name="WatchFace" parent="Layouts" startPc="268436213">
+<functionEntry accessMode="public" endPc="268436448" name="WatchFace" parent="Layouts" startPc="268436342">
 <param id="dc"/>
 <documentation/>
 </functionEntry>
